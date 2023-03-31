@@ -1,0 +1,12 @@
+version: v1.0
+env:python
+  TELEGRAM_TOKEN:6270886918:AAESzsyRTlsRjwYLrAXjCzl1hXvyniC0NJ0
+services:
+  app:tgfileconvertorbot
+    env:
+      TELEGRAM_TOKEN: $TELEGRAM_TOKEN
+    command: python fileconverter.py
+    # Replace `main.py` with the name of your Python file containing the main function.
+build:
+  frontend:
+    command: echo "Skipping frontend build step"
