@@ -10,12 +10,13 @@ import threading
 # import pickle
 import time
 import random
+from buttons import *
 
 
 # env
-bot_token = os.environ.get(6270886918:AAESzsyRTlsRjwYLrAXjCzl1hXvyniC0NJ0, "") 
-api_hash = os.environ.get(515670ba19163720615c843b846e6dda, "") 
-api_id = os.environ.get(20606963, "")
+bot_token = os.environ.get("6270886918:AAESzsyRTlsRjwYLrAXjCzl1hXvyniC0NJ0", "") 
+api_hash = os.environ.get("515670ba19163720615c843b846e6dda", "") 
+api_id = os.environ.get("20606963", "")
 
 
 # bot
